@@ -18,13 +18,11 @@ margin: auto;
 
 #title {
   font-family: 'Amatic SC', cursive;
-  font-size: 3em;
   margin-bottom: 5px;
 }
 
 #description {
   font-style: italic;
-  font-size: 1.5em;
 }
 
 form {
@@ -33,7 +31,6 @@ form {
   background-color: rgba(64, 224, 208, 0.85);
   border-radius: 10px;
   text-align: left;
-  font-size: 1.4em;
 }
 
 .survey-question {
@@ -41,14 +38,13 @@ form {
 }
 
 .question {
-  font-size: 1.2em;
+  font-size: 20px;
 }
 
 input, textarea, select {
   background-color: #f5f5f5;
   width: 100%;
   padding: 5px;
-  font-size: .9em;
   border: none;
   border-radius: 5px;
   margin-top: 10px;
@@ -58,10 +54,14 @@ input, textarea, select {
   margin-top: 10px;
 }
 
+.optional {
+}
+
 input[type=radio], input[type=checkbox] {
   width: auto;
   margin: 0;
   vertical-align: middle;
+
 }
 
 input[type=submit] {

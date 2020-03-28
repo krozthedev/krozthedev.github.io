@@ -120,3 +120,35 @@ input[type=submit] {
   vertical-align: middle;
   height: 75px;
 }
+
+#how-it-works {
+  border-top: solid 2px #006400;
+  border-bottom: solid 2px #006400;
+  margin-bottom: 30px;
+}
+
+#video {
+  margin: 50px;
+}
+
+#pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+#pricing div {
+  border: solid 1px #006400;
+  background-color: #f7f7f7;
+}
+
+.pricing-box {
+  display: grid;
+}
+
+#footer {
+  clear: both;
+  margin-top: 30px;
+  border-top: solid 2px #006400;
+  height: 100px;
+}

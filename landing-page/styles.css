@@ -11,24 +11,29 @@ a {
   color: #222;
 }
 
+#header {
+  height: 100px;
+  background-color: #dbdbdb;
+  border-bottom: solid 2px #006400;
+  padding: 30px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 #container {
   max-width: 1000px;
   margin: 0 auto;
   background-color: #dbdbdb;
   height: 100%;
-  padding: 0 50px;
+  padding: 200px 50px 0 50px;
   box-shadow: 0 0 10px gray;
-}
-
-#header {
-  height: 100px;
-  border-bottom: solid 2px #006400;
-  padding: 30px 0;
 }
 
 #header-img {
   height: 100px;
   float: left;
+  margin-left: 50px;
 }
 
 #nav-bar {
@@ -36,7 +41,7 @@ a {
 }
 
 #nav-bar ul {
-  margin: 0;
+  margin: 0 50px 0 0;
 }
 
 #nav-bar li {
@@ -142,8 +147,28 @@ input[type=submit] {
   background-color: #f7f7f7;
 }
 
+#pricing h4 {
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  margin: 15px 0;
+}
+
 .pricing-box {
   display: grid;
+  grid-template-rows: .1fr 2fr .1fr;
+  align-items: stretch;
+}
+
+.benefits {
+  text-align: left;
+  font-family: 'Coustard', serif;
+}
+
+.price {
+  color: #006400;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 #footer {
@@ -151,4 +176,10 @@ input[type=submit] {
   margin-top: 30px;
   border-top: solid 2px #006400;
   height: 100px;
+}
+
+@media only screen and (max-width: 980px) {
+  body {
+    background-color: red;
+  }
 }
